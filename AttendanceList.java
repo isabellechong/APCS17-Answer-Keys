@@ -4,6 +4,11 @@ public class AttendanceList {
 	
 	private ArrayList<Students> attendance = new ArrayList<Students>();
 	
+	public AttendanceList()
+	{
+		
+	}
+	
 	public AttendanceList(ArrayList<Students> input)
 	{
 		attendance = input;
