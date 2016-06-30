@@ -23,7 +23,7 @@ public class GoFishTester {
 		String bestPrevious = "";
 		String computerRank = "";
 		
-		while (deck1.deckSize()>0)
+		while ((deck1.deckSize()>0) || ((user.handSize()>0)||(computer.handSize()>0)))
 		{
 			boolean againOrNot = true;
 			boolean againOrNotC = true;
