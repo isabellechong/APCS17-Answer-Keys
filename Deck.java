@@ -70,7 +70,8 @@ private ArrayList<Card> deck;
 	
 	public void shuffle()
 	{
-		for (int i = 0; i<7; i++)
+		int shuffleNumber = (int)(Math.random()*100) + 7;
+		for (int i = 0; i<shuffleNumber; i++)
 		{
 		ArrayList<Card> firstHalf = new ArrayList<Card>();
 		ArrayList<Card> secondHalf = new ArrayList<Card>();
